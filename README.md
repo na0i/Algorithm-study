@@ -1,2 +1,17 @@
-# Algorithm
-Algorithms self study
+# Algorithms
+알고리즘 공부를 위한 repository 입니다.
+
+최소 주 5일 커밋을 목표로 합니다.
+
+
+
+### ✨SWEA
+
+| 일자       | 문제번호 | 성공여부 |
+| ---------- | -------- | -------- |
+| 2021.09.14 | 1206     | ㅇ       |
+
+
+
+### ✨Baekjoon
+
