@@ -30,4 +30,3 @@ for tc in range(T):
         N = N // 2
 
     print('#{} {} {} {} {} {}'.format(tc+1, a, b, c, d, e))
-
