@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c53e11a-e75d-4661-9ce3-70ab78512aef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/6485.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2001.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1959.py" beforeDir="false" afterPath="$PROJECT_DIR$/1959.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,26 +27,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="14" />
-          <entry key="txt" value="4" />
+          <entry key="py" value="18" />
+          <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="9" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Python" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="39" />
-          <entry key="py" value="3410" />
+          <entry key="py" value="4216" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="21" />
-          <entry key="Python" value="3428" />
+          <entry key="Python" value="4234" />
         </counts>
       </usages-collector>
     </session>
@@ -62,7 +62,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/6485.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
@@ -71,9 +71,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/6485.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2001.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" selection-start-line="3" selection-end-line="21" selection-end-column="51" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -97,6 +101,8 @@
         <option value="$PROJECT_DIR$/1209.py" />
         <option value="$PROJECT_DIR$/1959.py" />
         <option value="$PROJECT_DIR$/6485.py" />
+        <option value="$PROJECT_DIR$/1954.py" />
+        <option value="$PROJECT_DIR$/2001.py" />
       </list>
     </option>
   </component>
@@ -149,28 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.6485">
-    <configuration name="1205" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="01) SWEA" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1205.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.2001">
     <configuration name="1209" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="01) SWEA" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,7 +177,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1959" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1954" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="01) SWEA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -204,7 +189,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1959.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1954.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -226,6 +211,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1966.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2001" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="01) SWEA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2001.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -256,19 +262,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.1205" />
-      <item itemvalue="Python.1959" />
       <item itemvalue="Python.1966" />
       <item itemvalue="Python.1209" />
       <item itemvalue="Python.6485" />
+      <item itemvalue="Python.1954" />
+      <item itemvalue="Python.2001" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.2001" />
+        <item itemvalue="Python.1954" />
         <item itemvalue="Python.6485" />
         <item itemvalue="Python.1209" />
         <item itemvalue="Python.1966" />
-        <item itemvalue="Python.1959" />
-        <item itemvalue="Python.1205" />
       </list>
     </recent_temporary>
   </component>
@@ -345,6 +351,19 @@
     <entry file="file://$PROJECT_DIR$/5789.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/6485.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1954.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1954.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/1959.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -352,13 +371,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6485.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/6485.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2001.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="21" selection-end-column="51" />
         </state>
       </provider>
     </entry>
