@@ -1,3 +1,5 @@
+### 0914
+
 input 파일로 txt를 받을 때 사용하는 코드
 
 ```python
@@ -65,5 +67,20 @@ max 내장함수 이용
 
 ```
 max(리스트)
+```
+
+
+
+
+
+### 0921
+
+리스트 요소를 하나씩 출력하되 요소 뒤에 띄어쓰기를 추가하고 싶을 때
+
+```python
+P = int(input())
+    for p in range(P):
+    C = int(input())
+    print(bus_stop[C], end=' ')
 ```
 

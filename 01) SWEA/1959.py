@@ -30,3 +30,4 @@ for tc in range(T):
             result.append(summ)
 
     print('#{} {}'.format(tc+1, max(result)))
+
