@@ -84,3 +84,20 @@ P = int(input())
     print(bus_stop[C], end=' ')
 ```
 
+
+
+--------
+
+이차원 리스트와 같은 다중 리스트에서 깊은 복사를 하기 위해서는
+
+copy.deepcopy를 이용한다
+
+
+
+```python
+import copy
+
+puzzle_row = [list(map(int, input().split())) for _ in range(N)]
+puzzle_col = copy.deepcopy(puzzle_row)
+```
+
