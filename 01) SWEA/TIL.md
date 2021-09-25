@@ -101,3 +101,24 @@ puzzle_row = [list(map(int, input().split())) for _ in range(N)]
 puzzle_col = copy.deepcopy(puzzle_row)
 ```
 
+
+
+### 0923
+
+![image-20210923211945071](C:\Users\multicampus\AppData\Roaming\Typora\typora-user-images\image-20210923211945071.png)
+
+UnicodeDecodeError: 'cp949' codec can't decode byte 0xec in position 5065: illegal multibyte sequence
+
+
+
+input을 맞게 했는데 알 수 없는 오류 발생..!
+
+
+
+encoding='UTF8' 을 추가해서 해결
+
+```
+import sys
+sys.stdin = open('1213.txt', 'r', encoding='UTF8')
+```
+
