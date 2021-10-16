@@ -1,8 +1,6 @@
 import sys
 sys.stdin = open('1205.txt', 'r')
 
-
-
 for tc in range(10):
     building_cnt = int(input())
     buildings = list(map(int, input().split()))
