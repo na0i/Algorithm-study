@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('1205.txt', 'r')
+sys.stdin = open('1206.txt', 'r')
 
 for tc in range(10):
     building_cnt = int(input())
