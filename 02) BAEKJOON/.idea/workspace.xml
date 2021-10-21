@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf1b5ed8-09a4-45a8-bc0d-d3c5a2e597e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/7576.py" afterDir="false" />
+    <list default="true" id="bf1b5ed8-09a4-45a8-bc0d-d3c5a2e597e6" name="Default Changelist" comment="K">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,37 +14,37 @@
     <session id="1671977602">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="13" />
+          <entry key="py" value="16" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="13" />
+          <entry key="Python" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="7374" />
-          <entry key="txt" value="7" />
+          <entry key="py" value="8245" />
+          <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="7374" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Python" value="8245" />
         </counts>
       </usages-collector>
     </session>
@@ -53,34 +52,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2178.py">
+        <entry file="file://$PROJECT_DIR$/7576.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="26" lean-forward="true" selection-end-line="35" selection-end-column="26" />
+            <state relative-caret-position="594">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <marker date="1634742987245" expanded="true" signature="134:574" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/7576.py">
+        <entry file="file://$PROJECT_DIR$/1697.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <marker date="1634742954338" expanded="true" signature="133:573" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2667.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="36" selection-start-line="12" selection-end-line="13" />
-              <folding>
-                <marker date="1634561533695" expanded="true" signature="37:582" ph="..." />
-              </folding>
+            <state>
+              <caret selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -107,6 +94,7 @@
         <option value="$PROJECT_DIR$/2667.py" />
         <option value="$PROJECT_DIR$/2178.py" />
         <option value="$PROJECT_DIR$/7576.py" />
+        <option value="$PROJECT_DIR$/1697.py" />
       </list>
     </option>
   </component>
@@ -154,8 +142,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.7576">
-    <configuration name="1012" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.1697">
+    <configuration name="1697" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="02) BAEKJOON" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -167,7 +155,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1012.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1697.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -282,19 +270,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.1012" />
       <item itemvalue="Python.A형 TEST_2" />
       <item itemvalue="Python.A형 TEST_1" />
       <item itemvalue="Python.2178" />
       <item itemvalue="Python.7576" />
+      <item itemvalue="Python.1697" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1697" />
         <item itemvalue="Python.7576" />
         <item itemvalue="Python.2178" />
         <item itemvalue="Python.A형 TEST_1" />
         <item itemvalue="Python.A형 TEST_2" />
-        <item itemvalue="Python.1012" />
       </list>
     </recent_temporary>
   </component>
@@ -321,13 +309,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-128" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13751318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38712776" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34582132" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -371,27 +360,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/A형 TEST_1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/A형 TEST_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/A형 TEST_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/A형 TEST_1.txt" />
+    <entry file="file://$PROJECT_DIR$/A형 TEST_1.py" />
+    <entry file="file://$PROJECT_DIR$/A형 TEST_2.py" />
     <entry file="file://$PROJECT_DIR$/2667.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -405,17 +376,24 @@
     <entry file="file://$PROJECT_DIR$/2178.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="10" column="26" lean-forward="true" selection-end-line="35" selection-end-column="26" />
+          <caret line="10" column="26" selection-end-line="35" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/7576.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="594">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
           <folding>
-            <marker date="1634742954338" expanded="true" signature="133:573" ph="..." />
+            <marker date="1634742987245" expanded="true" signature="134:574" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1697.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="20" />
         </state>
       </provider>
     </entry>
