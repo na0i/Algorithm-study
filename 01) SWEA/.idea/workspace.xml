@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <list default="true" id="1c53e11a-e75d-4661-9ce3-70ab78512aef" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../.idea/.name" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
@@ -15,6 +16,9 @@
 =======
     <list default="true" id="1c53e11a-e75d-4661-9ce3-70ab78512aef" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+>>>>>>> Stashed changes
+=======
+    <list default="true" id="1c53e11a-e75d-4661-9ce3-70ab78512aef" name="Default Changelist" comment="" />
 >>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
