@@ -6,6 +6,9 @@ sys.stdin = open('10966.txt', 'r')
 def bfs():
     visited[myqueue[0][0]][myqueue[0][1]] = 1
 
+    global road
+    road = 0
+
     while myqueue:
         now = myqueue.popleft()
 
