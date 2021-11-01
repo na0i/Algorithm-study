@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bf1b5ed8-09a4-45a8-bc0d-d3c5a2e597e6" name="Default Changelist" comment="K">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2231.py" beforeDir="false" afterPath="$PROJECT_DIR$/2231.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1018.py" beforeDir="false" afterPath="$PROJECT_DIR$/1018.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,13 +15,13 @@
     <session id="1671977602">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="7" />
-          <entry key="project.open.time.4" value="4" />
+          <entry key="project.open.time.4" value="5" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -38,25 +38,37 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="14551" />
+          <entry key="py" value="15820" />
           <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="14551" />
+          <entry key="Python" value="15820" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1436.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret selection-end-line="14" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1018.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="95" lean-forward="true" selection-start-line="56" selection-end-line="95" />
+              <folding>
+                <marker date="1635776303666" expanded="true" signature="1872:2502" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,7 +99,6 @@
         <option value="$PROJECT_DIR$/18258.py" />
         <option value="$PROJECT_DIR$/2798.py" />
         <option value="$PROJECT_DIR$/2331.py" />
-        <option value="$PROJECT_DIR$/1018.py" />
         <option value="$PROJECT_DIR$/10828.py" />
         <option value="$PROJECT_DIR$/10773.py" />
         <option value="$PROJECT_DIR$/9012.py" />
@@ -96,6 +107,7 @@
         <option value="$PROJECT_DIR$/17298.py" />
         <option value="$PROJECT_DIR$/2231.py" />
         <option value="$PROJECT_DIR$/1436.py" />
+        <option value="$PROJECT_DIR$/1018.py" />
       </list>
     </option>
   </component>
@@ -143,7 +155,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1436">
+  <component name="RunManager" selected="Python.1018">
+    <configuration name="1018" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="02) BAEKJOON" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\multicampus\01) SWEA\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1018.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="1436" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="02) BAEKJOON" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -228,27 +261,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4949" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="02) BAEKJOON" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\multicampus\01) SWEA\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4949.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="02) BAEKJOON" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -271,19 +283,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.4949" />
       <item itemvalue="Python.1874" />
       <item itemvalue="Python.17298" />
       <item itemvalue="Python.2231" />
       <item itemvalue="Python.1436" />
+      <item itemvalue="Python.1018" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1018" />
         <item itemvalue="Python.1436" />
         <item itemvalue="Python.2231" />
         <item itemvalue="Python.17298" />
         <item itemvalue="Python.1874" />
-        <item itemvalue="Python.4949" />
       </list>
     </recent_temporary>
   </component>
@@ -326,7 +338,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34582132" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -468,13 +480,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1018.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="4" selection-end-line="53" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/10773.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -528,6 +533,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1018.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="95" lean-forward="true" selection-start-line="56" selection-end-line="95" />
+          <folding>
+            <marker date="1635776303666" expanded="true" signature="1872:2502" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
