@@ -1,12 +1,30 @@
+# N, K = map(int, input().split())
+# coin = [int(input()) for n in range(N)]
+# coin = sorted(coin)
+#
+# cnt = 0
+# for i in range(N-1, -1, -1):
+#     cnt += K // coin[i]
+#     K %= coin[i]
+#
+# print(cnt)
+
+
 N, K = map(int, input().split())
 coin = [int(input()) for n in range(N)]
+coin = sorted(coin)
 
-for i in range(N-1, 0, -1):
+cnt = 0
+current = 0
+for i in range(N-1, -1, -1):
     if coin[i] > K:
         continue
 
-    current = 0
-    if coin[i] <= K:
-        while True:
-            current += coin[i]
-            cnt += 1
+    while current + coin[i] <= K:
+        current += coin[i]
+        cnt += 1
+
+        if current >= K:
+            break
+
+print(cnt)
