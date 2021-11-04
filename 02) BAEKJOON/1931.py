@@ -1,29 +1,13 @@
 N = int(input())
-conference = [tuple(map(int, input().split())) for _ in range(N)]
-time = [0] * 987654321
-using_time = []
+conference = [list(map(int, input().split())) for _ in range(N)]
+conference = sorted(conference, key=lambda x: (x[1], x[0]))
 
-for i in range(N):
-    using_time.append((conference[i][1]-conference[i][0], conference[i]))
+can_meet = [conference[0]]
+for i in range(1, N):
+    if conference[i][0] >= can_meet[-1][1]:
+        can_meet.append(conference[i])
 
-using_time = sorted(using_time)
+    elif conference[i][0] == conference[i][1]:
+        can_meet.append(conference[i])
 
-cnt = 0
-for j in range(N):
-    flag = True
-    start = using_time[j][1][0]
-    end = using_time[j][1][1]
-
-    if start != end:
-        for k in range(start, end):
-            if time[k] != 0:
-                flag = False
-
-        if flag == True:
-            cnt += 1
-            for l in range(start, end):
-                time[l] += 1
-    else:
-        continue
-
-print(cnt)
+print(len(can_meet))
