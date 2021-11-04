@@ -11,3 +11,6 @@ for i in range(1, N):
         can_meet.append(conference[i])
 
 print(len(can_meet))
+
+# 앞 타임이 일찍 끝날 수록 회의룸을 더 많이 이용할 수 있으므로
+# 끝나는 시간 기준으로 정렬한다.
