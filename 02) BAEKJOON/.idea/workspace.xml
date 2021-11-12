@@ -177,7 +177,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.4485">
+  <component name="RunManager" selected="Python.1152">
+    <configuration name="1152" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="02) BAEKJOON" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\multicampus\01) SWEA\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1152.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="11866" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="02) BAEKJOON" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,27 +212,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11866.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1931" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="02) BAEKJOON" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\multicampus\01) SWEA\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1931.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -305,19 +305,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.1931" />
       <item itemvalue="Python.2164" />
       <item itemvalue="Python.11866" />
       <item itemvalue="Python.2908" />
       <item itemvalue="Python.4485" />
+      <item itemvalue="Python.1152" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1152" />
         <item itemvalue="Python.4485" />
         <item itemvalue="Python.2908" />
         <item itemvalue="Python.11866" />
         <item itemvalue="Python.2164" />
-        <item itemvalue="Python.1931" />
       </list>
     </recent_temporary>
   </component>
