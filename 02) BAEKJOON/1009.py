@@ -10,4 +10,3 @@ for tc in range(T):
     # else:
     #     print(data[-1])
 
-    
