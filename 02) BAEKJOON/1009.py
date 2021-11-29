@@ -10,3 +10,11 @@ for tc in range(T):
     # else:
     #     print(data[-1])
 
+    nameoji = 1
+    for i in range(b):
+        nameoji = (a * nameoji) % 10
+
+    if nameoji == 0:
+        print(10)
+    else:
+        print(nameoji)
