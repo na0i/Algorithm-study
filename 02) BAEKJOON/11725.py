@@ -37,20 +37,16 @@ input = sys.stdin.readline
 N = int(input())
 tree = [([] * (N+1)) for _ in range(N+1)]
 parent = [0] * (N+1)
-visited = [0] * (N+1)
-
 
 def bfs():
     myQ = deque()
     myQ.append(1)
-    visited[1] = 1
     while myQ:
         now = myQ.popleft()
         for i in tree[now]:
-            if not parent[i] and not visited[i]:
+            if not parent[i]:
                 myQ.append(i)
                 parent[i] = now
-                visited[i] = 1
     return parent
 
 
