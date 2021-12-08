@@ -1,74 +1,36 @@
 N = int(input())
-left_tree = [0] * N
-right_tree = [0] * N
-result_1 = []
-result_2 = []
-result_3 = []
-# [1, 3, 4, 0, 0, 0, 0]
-# [2, 0, 5, 0, 6, 0, 0]
-
-for n in range(N):
-    node, left, right = map(str, input().split())
-    if right == '.' and left == '.':
-        pass
-    elif left == '.' and right != '.':
-        right_tree[n] = ord(right) - 65
-    elif right == '.' and left != '.':
-        left_tree[n] = ord(left) - 65
-    else:
-        left_tree[n] = ord(left) - 65
-        right_tree[n] = ord(right) - 65
+tree = {}
 
 
 def jeonwui(now):
-    global result_1
-
-    result_1.append(now)
-
-    if left_tree[now]:
-        jeonwui(left_tree[now])
-
-    if right_tree[now]:
-        jeonwui(right_tree[now])
-
-    return result_1
+    global result_j
+    if now != '.':
+        print(now, end='')
+        jeonwui(tree[now][0])
+        jeonwui(tree[now][1])
 
 
 def zoongwui(now):
-    global result_2
-
-    if left_tree[now] or right_tree[now]:
-        zoongwui(left_tree[now])
-        result_2.append(now)
-        zoongwui(right_tree[now])
-
-    return result_2
+    if now != '.':
+        zoongwui(tree[now][0])
+        print(now, end='')
+        zoongwui(tree[now][1])
 
 
 def hoowui(now):
-    global result_3
-
-    if left_tree[now]:
-        hoowui(left_tree[now])
-
-    if right_tree[now]:
-        hoowui(right_tree[now])
-    result_3.append(now)
-
-    return result_3
-
-jeonwui(0)
-zoongwui(0)
-hoowui(0)
+    if now != '.':
+        hoowui(tree[now][0])
+        hoowui(tree[now][1])
+        print(now, end='')
 
 
-for i in range(len(result_1)):
-    print(chr(result_1[i] + 65), end='')
+for n in range(N):
+    root, left, right = map(str, input().split())
+    tree[root] = [left, right]
 
+jeonwui('A')
 print()
-for j in range(len(result_2)):
-    print(chr(result_2[j] + 65), end='')
-
+zoongwui('A')
 print()
-for k in range(len(result_3)):
-    print(chr(result_3[k] + 65), end='')
+hoowui('A')
+
