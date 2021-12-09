@@ -5,9 +5,8 @@ while True:
         break
     nodes.append(int(node))
 
+root = nodes[0]
 size = len(nodes)
-tree = [0] * size
 
-for n in range(size):
-    tree[n] = nodes[n]
 
+def binary_search():
