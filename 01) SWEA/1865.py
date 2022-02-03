@@ -4,6 +4,7 @@ sys.stdin = open('1865.txt', 'r')
 
 def dfs(essence, turn):
     global result
+    # 이부분 없으면 제한시간 초과
     if essence == 0:
         return
 
