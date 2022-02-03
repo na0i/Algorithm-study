@@ -1,38 +1,27 @@
 import sys
 sys.stdin = open('7465.txt', 'r')
 
-
-def moori(now):
-    global cnt
-    for next in range(1, N+1):
-        if people[now][next] == 1 and next not in visited:
-            people[now][next] = 0
-            visited.append(next)
-            moori(next)
-
-    flag = False
-    for j in range(1, N+1):
-        if people[now][j] == 1:
-            flag = True
-
-    if not flag:
-        visited.append((0, now))
-
-
 T = int(input())
 for tc in range(T):
     N, M = map(int, input().split())
-    people = [[0] * (N+1) for _ in range(N+1)]
-    visited = []
-    x = []
-
+    nodes = [[0] * (N+1) for _ in range(N+1)]
+    visited = [0] * (N+1)
     for _ in range(M):
         a, b = map(int, input().split())
-        people[a][b] = 1
-    cnt = 0
-    for i in range(1, N+1):
-        moori(i)
+        nodes[a][b] = nodes[b][a] = 1
 
-    print(visited)
-    print(people)
-    print(cnt)
+    cnt = 0
+    for node in range(1, N+1):
+        if visited[node] == 0:
+            visited[node] = 1
+            stack = [node]
+            cnt += 1
+
+            while stack:
+                now = stack.pop(0)
+                for i in range(1, N+1):
+                    if visited[i] == 0 and nodes[now][i] == 1:
+                        visited[i] = 1
+                        stack.append(i)
+
+    print('#{} {}'.format(tc+1, cnt))
