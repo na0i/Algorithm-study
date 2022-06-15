@@ -4,8 +4,7 @@ from collections import deque
 
 N, M = map(int, input().split())
 miro = [list(input()) for _ in range(N)]
-start_r = 0
-start_c = 0
+start_r = start_c = 0
 dr = [-1, 1, 0, 0]
 dc = [0, 0, -1, 1]
 visited = []
