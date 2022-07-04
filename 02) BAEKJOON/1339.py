@@ -1,30 +1,39 @@
-from collections import Counter
-
 N = int(input())
-words_list = [list(input()) for _ in range(N)]
-cnt_check_list = [list() for _ in range(10)]
-sorted_words_list = sorted(words_list, key=lambda x:len(x))
-sorted_words_list.reverse() # 단어가 긴 순으로 정렬
+cards = [input() for _ in range(N)]
+alphabet = {}
 
-print(sorted_words_list)
-for i in range(len(sorted_words_list)):
-    word_length = len(sorted_words_list[i])
-    for j in range(word_length):
-        cnt_check_list[word_length-j-1].append(sorted_words_list[i][j])
+max_len = 0
+for i in range(N):
+    if len(cards[i]) > max_len:
+        max_len = len(cards[i])
 
-print(cnt_check_list)
-# [['B', 'F'], ['E', 'C'], ['D', 'G'], ['C'], ['A'], [], [], [], [], []]
+for i in range(N):
+    if len(cards[i]) < max_len:
+        for j in range(max_len - len(cards[i])):
+            cards[i] = '0' + cards[i]
 
-number_list = [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
-result = []
-for i in range(9, -1, -1):
-    if len(cnt_check_list[i]) == 0:
-        continue
-    else:
-        counts = Counter(cnt_check_list[i])
-        for key, value in range(1):
-            print(counts[key])
-            # now_number = number_list.pop()
-            # result.append([key, now_number])
+for i in range(N):
+    for j in range(max_len):
+        if cards[i][j] == '0':
+            continue
+        elif cards[i][j] in alphabet:
+            alphabet[cards[i][j]] += 10 ** (max_len - j - 1)
+        else:
+            alphabet[cards[i][j]] = 10 ** (max_len - j - 1)
 
-print(result)
+sorted_alphabet = sorted(alphabet.items(), key=lambda x:x[1], reverse=True)
+card_number_pair = {}
+number = 9
+for i in range(len(sorted_alphabet)):
+    card_number_pair[sorted_alphabet[i][0]] = number
+    number -= 1
+
+card_sum = 0
+for i in range(N):
+    for j in range(max_len):
+        if cards[i][j] == '0':
+            continue
+        else:
+            card_sum += card_number_pair[cards[i][j]] * (10 ** (max_len - j - 1))
+
+print(card_sum)
