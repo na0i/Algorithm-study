@@ -4,36 +4,23 @@ N_list = sorted(list(map(int, sys.stdin.readline().rstrip().split())))
 M = int(input())
 M_list = list(map(int, sys.stdin.readline().rstrip().split()))
 
+# 이분 탐색 문제이지만
+# 단일 타겟을 찾지 않기 때문에 시간초과가 발생
+
+dict = {}
+
+for i in N_list:
+    if i in dict:
+        dict[i] += 1
+    else:
+        dict[i] = 1
+
 result = []
-for i in range(M):
-    flag = False
-    start = 0
-    end = N - 1
-    now_card = M_list[i]
-    while start <= end:
-        mid = (start + end) // 2
-
-        if now_card == N_list[mid]:
-            flag = True
-            cnt = 0
-            for j in range(start, end+1):
-                if N_list[j] < now_card:
-                    continue
-                elif N_list[j] > now_card:
-                    break
-                elif N_list[j] == now_card:
-                    cnt += 1
-            result.append(cnt)
-            break
-
-        elif now_card > N_list[mid]:
-            start = mid + 1
-
-        elif now_card < N_list[mid]:
-            end = mid - 1
-
-    if flag is False:
+for j in M_list:
+    if j in dict:
+        result.append(dict[j])
+    else:
         result.append(0)
 
-for i in range(len(result)):
-    print(result[i], end=' ')
+for k in result:
+    print(k, end=' ')
