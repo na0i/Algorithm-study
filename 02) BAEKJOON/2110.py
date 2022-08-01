@@ -1,5 +1,6 @@
 import sys
 N, C = map(int, sys.stdin.readline().rstrip().split())
+<<<<<<< HEAD
 x_coordinate = [int(input()) for _ in range(N)]
 x_coordinate = sorted(x_coordinate)
 
@@ -32,3 +33,17 @@ while start <= end:
             print(start, end, mid, 'd')
 
 print(end)
+=======
+x_coordinates = [int(sys.stdin.readline().rstrip()) for _ in range(N)]
+x_coordinates = sorted(x_coordinates)
+
+start = x_coordinates[0]
+end = x_coordinates[-1]
+
+print(x_coordinates)
+current_x = start
+# while start <= end:
+    # cnt = 1
+    # mid = (start + end) // 2
+
+>>>>>>> 00d6dd4574a7ccf21ec1ad52347a73029bbf86d6
