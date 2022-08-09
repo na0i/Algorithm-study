@@ -9,8 +9,7 @@ if N > 2:
         dp[start] = dp[start-1] + dp[start-2]
         start += 1
 
-    print(dp[N-1])
-    print(dp)
+    print(dp[N-1] % 10007)
 
 else:
     print(N)
