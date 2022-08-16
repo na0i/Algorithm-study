@@ -166,5 +166,6 @@
 |            | BAEKJOON        | 11727                  | ✅       |
 | 2022.08.10 | BAEKJOON        | 2529                   | ✅       |
 | 2022.08.15 | LEETCODE        | 13                     | ❌       |
-|            | LEETCODE        | 121                    | ❌       |
+|            | LEETCODE        | 121                    | 🟡       |
 | 2022.08.16 | BAEKJOON        | 2217_ver2              | ✅       |
+|            | LEETCODE        | 121                    | ✅       |
