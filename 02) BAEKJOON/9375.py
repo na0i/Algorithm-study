@@ -1,5 +1,3 @@
-from itertools import combinations
-
 T = int(input())
 for tc in range(T):
     num_clothes = int(input())
