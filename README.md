@@ -171,10 +171,8 @@
 |            | LEETCODE        | 121                    | ✅       |
 | 2022.08.17 | BAEKJOON        | 9375                   | ✅       |
 | 2022.08.18 | BAEKJOON        | 14889                  | ✅       |
-| 2022.08.19 | BAEKJOON | 10867 | ✅ |
-| 2022.08.22 | LEETCODE | 349 | ✅ |
-|  | LEETCODE | 207 | ❌ |
-| 2022.08.23 | BAEKJOON | 1158 | ✅ |
-|  | BAEKJOON | 9663 | ❌ |
-| 2022.08.29 | LEETCODE | 11 | ❌ |
-|  | LEETCODE | 1725 | ✅ |
+| 2022.08.19 | BAEKJOON        | 10867                  | ✅       |
+| 2022.08.22 | LEETCODE        | 349                    | ✅       |
+|            | LEETCODE        | 207                    | ❌       |
+| 2022.08.23 | BAEKJOON        | 1158                   | ✅       |
+|            | BAEKJOON        | 9663                   | ❌       |
