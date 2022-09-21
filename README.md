@@ -182,5 +182,8 @@
 | 2022.09.01 | BAEKJOON        | 2252                   | ✅       |
 | 2022.09.14 | BAEKJOON        | 10808                  | ✅       |
 |            | BAEKJOON        | 15565                  | ❌       |
+| 2022.09.15 | LEETCODE        | 15                     | ❌       |
+|            | LEETCODE        | 108                    | ❌       |
 | 2022.09.19 | LEETCODE        | 547                    | ✅       |
 |            | LEETCODE        | 17                     | ✅       |
+| 2022.09.21 | BAEKJOON        | 10026_ver2             | ✅       |
