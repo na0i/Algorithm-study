@@ -188,4 +188,6 @@
 |            | LEETCODE        | 17                     | ✅       |
 | 2022.09.21 | BAEKJOON        | 10026_ver2             | ✅       |
 | 2022.09.22 | BAEKJOON        | 1991_ver2              | ❌       |
-| 2022.09.27 | LEETCODE        | 169                    | ✅       |
+| 2022.09.26 | LEETCODE        | 169                    | ✅       |
+|            | LEETCODE        | 102                    | ❌       |
+| 2022.09.28 | LEETCODE        | 169                    | ✅       |
