@@ -12,4 +12,11 @@ else:
     hour += temp_hour
     minute = temp_minute
 
+    if hour == 24:
+        hour = 0
+
+    elif hour > 24:
+        share = hour // 24
+        hour -= 24 * share
+
     print(hour, minute)
