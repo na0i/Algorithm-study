@@ -1,39 +1,53 @@
 find_num = int(input())
-broken_cnt = int(input())
-broken_list = list(input().split())
+M = int(input())
+broken = []
+if M:
+    broken = list(map(str, input().split()))
 
-remote = [str(_) for _ in range(10)]
+if find_num == 100:
+    print(0)
 
-for b in broken_list:
-    remote.remove(b)
+elif len(broken) == 10:
+    print(abs(find_num - 100))
 
+else:
+    num_1 = find_num
+    num_2 = find_num
+    cnt = 0
+    answer = 0
 
-def is_broken(strr):
-    flag = False
+    while True:
+        num_1 = str(num_1)
+        num_2 = str(num_2)
+        is_num1_broken = False
+        is_num2_broken = False
 
-    for l in strr:
-        for bl in broken_list:
-            if l == bl:
-                flag = True
+        for i in num_1:
+            if i in broken:
+                is_num1_broken = True
                 break
 
-    return flag
+        for j in num_2:
+            if j in broken:
+                is_num2_broken = True
+                break
 
+        if not is_num1_broken and not is_num2_broken:
+            min_len = min(len(num_1), len(num_2))
+            answer += min_len + cnt
+            break
 
-plus_find_num = int(find_num)
-minus_find_num = int(find_num)
-answer = 987654321
+        elif not is_num1_broken:
+            answer = len(num_1) + cnt
+            break
 
-while True and find_num != 100:
-    plus_find_num += 1
-    minus_find_num -= 1
+        elif not is_num2_broken:
+            answer = len(num_2) + cnt
+            break
 
-    if not is_broken(str(plus_find_num)):
-        answer = abs(int(plus_find_num) - find_num)
-        break
+        elif is_num1_broken and is_num2_broken:
+            cnt += 1
+            num_1 = int(num_1) + 1
+            num_2 = int(num_2) - 1
 
-    elif not is_broken(str(minus_find_num)):
-        answer = abs(int(minus_find_num) - find_num)
-        break
-
-print(plus_find_num, minus_find_num, answer)
+    print(min(answer, abs(find_num - 100)))
