@@ -2,88 +2,81 @@ gear_one = list(input())
 gear_two = list(input())
 gear_three = list(input())
 gear_four = list(input())
-gear_list = [gear_one, gear_two, gear_three, gear_four]
+gear_list = [[0], gear_one, gear_two, gear_three, gear_four]
+
+
+def turn_left(lst):
+    tmp = lst.pop(0)
+    lst.append(tmp)
+    return lst
+
+
+def turn_right(lst):
+    tmp = lst.pop()
+    lst = [tmp] + lst
+    return lst
+
 
 K = int(input())
 for k in range(K):
-    gear_idx, dirr = map(int, input().split())
+    idx, dir = map(int, input().split())
 
-    gear_idx -= 1
-    left_idx = gear_idx - 1
-    right_idx = gear_idx + 1
+    check = [0, 0, 0, 0, 0]  # 바꿀 기어 index 확인 list
+    check[idx] = dir
 
-    while left_idx >= 0:
-        # 회전 톱니 바퀴의 6번째 바퀴와 좌측 톱니 바퀴의 2번째 바퀴의 방향이 같을 때
-        # 회전 톱니 바퀴만 회전
-        if gear_list[left_idx][2] == gear_list[gear_idx][6]:
-            if dirr == -1:  # 반시계 방향 회전
-                temp = gear_list[gear_idx].pop(0)
-                gear_list[gear_idx].append(temp)
+    current_idx = idx
+    left_idx = idx - 1
+    right_idx = idx + 1
 
-            else:  # 시계 방향 회전
-                temp = gear_list[gear_idx].pop()
-                gear_list[gear_idx] = [temp] + gear_list[gear_idx]
-
-        # 회전 톱니 바퀴의 6번째 바퀴와 좌측 톱니 바퀴의 2번째 바퀴의 방향이 다를 때
-        # 회전 톱니 바퀴와 좌측 톱니 바퀴 모두 회전
+    while 0 < left_idx <= 4:
+        if gear_list[current_idx][6] == gear_list[left_idx][2]:
+            break
         else:
-            if dirr == -1:
-                temp = gear_list[gear_idx].pop(0)
-                gear_list[gear_idx].append(temp)
+            check[left_idx] = check[current_idx] * (-1)
+            current_idx -= 1
+            left_idx -= 1
 
-                temp = gear_list[left_idx].pop()
-                gear_list[left_idx] = [temp] + gear_list[left_idx]
-
-            else:
-                temp = gear_list[gear_idx].pop()
-                gear_list[gear_idx] = [temp] + gear_list[gear_idx]
-
-                temp = gear_list[left_idx].pop(0)
-                gear_list[left_idx].append(temp)
-
-        # 왼쪽으로 이동하며 반복
-        left_idx -= 1
-        gear_idx -= 1
-
-    # gear_idx 초기화
-    gear_idx = right_idx - 1
-
-    # 우측도 동일한 원리
-    while right_idx < 4:
-        if gear_list[right_idx][6] == gear_list[gear_idx][2]:
-            if dirr == -1:
-                temp = gear_list[gear_idx].pop(0)
-                gear_list[gear_idx].append(temp)
-
-            else:
-                temp = gear_list[gear_idx].pop()
-                gear_list[gear_idx] = [temp] + gear_list[gear_idx]
-
+    for i in range(5):
+        if i == idx:
+            continue
+        elif check[i] == -1:
+            gear_list[i] = turn_left(gear_list[i])
+        elif check[i] == 1:
+            gear_list[i] = turn_right(gear_list[i])
         else:
-            if dirr == -1:
-                temp = gear_list[gear_idx].pop(0)
-                gear_list[gear_idx].append(temp)
+            continue
 
-                temp = gear_list[right_idx].pop()
-                gear_list[right_idx] = [temp] + gear_list[right_idx]
+    current_idx = idx
+    check = [0, 0, 0, 0, 0]
+    check[idx] = dir
 
-            else:
-                temp = gear_list[gear_idx].pop()
-                gear_list[gear_idx] = [temp] + gear_list[gear_idx]
+    while 0 < right_idx <= 4:
+        if gear_list[current_idx][2] == gear_list[right_idx][6]:
+            break
+        else:
+            check[right_idx] = check[current_idx] * (-1)
+            current_idx += 1
+            right_idx += 1
 
-                temp = gear_list[right_idx].pop(0)
-                gear_list[right_idx].append(temp)
+    for i in range(5):
+        if i == idx:
+            continue
+        elif check[i] == -1:
+            gear_list[i] = turn_left(gear_list[i])
+        elif check[i] == 1:
+            gear_list[i] = turn_right(gear_list[i])
+        else:
+            continue
 
-        right_idx += 1
-        gear_idx += 1
-
-    for j in range(4):
-        print(gear_list[j])
+    if dir == -1:
+        gear_list[idx] = turn_left(gear_list[idx])
+    else:
+        gear_list[idx] = turn_right(gear_list[idx])
 
 
 answer = 0
-for i in range(4):
+for i in range(1, 5):
     if gear_list[i][0] == '1':
-        answer += 2 ** i
+        answer += 2 ** (i-1)
 
 print(answer)
