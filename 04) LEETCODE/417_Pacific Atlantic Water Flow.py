@@ -28,7 +28,6 @@ for r in range(rows):
                 if next_r < 0 or next_r >= rows or next_c < 0 or next_c >= cols or heights[next_r][next_c] > heights[now_r][now_c] or visited[next_r][next_c] == 1:
                     break
 
-
                 else:
                     if next_r == 0 or next_c == 0:
                         possible_P = True
