@@ -218,3 +218,5 @@
 |            | LEETCODE        | 438                    | ✅       |
 | 2022.12.19 | LEETCODE        | 1971                   | ✅       |
 |            | LEETCODE        | 2.                     | ❌       |
+| 2022.12.26 | LEETCODE        | 646                    | ✅       |
+|            | LEETCODE        | 410                    | ❌       |
