@@ -217,6 +217,9 @@
 | 2022.12.12 | LEETCODE        | 347                    | ✅       |
 |            | LEETCODE        | 438                    | ✅       |
 | 2022.12.19 | LEETCODE        | 1971                   | ✅       |
-|            | LEETCODE        | 2.                     | ❌       |
+|            | LEETCODE        | 2                      | ❌       |
 | 2022.12.26 | LEETCODE        | 646                    | ✅       |
 |            | LEETCODE        | 410                    | ❌       |
+| 2023.01.16 | LEETCODE        | 57                     | ✅       |
+|            | LEETCODE        | 2357                   | ✅       |
+|            | BAEKJOON        | 13305                  | ✅       |
