@@ -224,3 +224,5 @@
 |            | LEETCODE        | 2357                   | ✅       |
 |            | BAEKJOON        | 13305                  | ✅       |
 | 2023.01.17 | BAEKJOON        | 1789                   | ✅       |
+| 2023.01.18 | BAEKJOON        | 11724                  | ✅       |
+|            | LEETCODE        | 207                    | ✅       |

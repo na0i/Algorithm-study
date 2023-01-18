@@ -1,37 +1,36 @@
-numCourses = 5
-prerequisites = [[1,4],[2,4],[3,1],[3,2]]
-prerequisites_list = [[0] * numCourses for _ in range(numCourses)]
-visited = [0] * numCourses
-global result
-result = True
+from collections import deque
 
-
-def bfs():
-    global result
-
-    while stack:
-        now = stack.pop(0)
-        for k in range(numCourses):
-            if prerequisites_list[now][k] == 1 and visited[k] == 1:
-                result = False
-                break
-            elif prerequisites_list[now][k] == 1 and visited[k] == 0:
-                stack.append(k)
-                visited[k] = 1
-
-
+numCourses = 6
+# prerequisites = [[1, 0]]
+# prerequisites = [[1, 0], [0, 1]]
+prerequisites = [[1, 2], [3, 5], [4, 5]]
+link_list = [[] for _ in range(numCourses)]
 for req in prerequisites:
-    prerequisites_list[req[0]][req[1]] = 1
+    start = req[0]
+    end = req[1]
+    link_list[start].append(end)
 
-for i in range(numCourses):
-    if 1 in prerequisites_list[i]:
-        stack = [i]
-        visited[i] = 1
-        bfs()
-        break
 
-for v in visited:
-    if v == 0:
-        result = False
+answer = True
+for i in range(len(link_list)):
+    link = link_list[i]
+    if len(link) > 0 and answer:
+        start = link[0]
+        queue = deque()
+        queue.append(link[0])
+        visited = [False for _ in range(numCourses)]
 
-print(result)
+        while queue:
+            now = queue.popleft()
+            print(link, now, start, i)
+            if now == i:
+                answer = False
+                break
+            else:
+                visited[now] = True
+
+                for l in link_list[now]:
+                    if not visited[l]:
+                        queue.append(l)
+
+print(answer)
