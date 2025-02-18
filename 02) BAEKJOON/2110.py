@@ -1,49 +1,32 @@
-import sys
-N, C = map(int, sys.stdin.readline().rstrip().split())
-<<<<<<< HEAD
-x_coordinate = [int(input()) for _ in range(N)]
-x_coordinate = sorted(x_coordinate)
+house, router = map(int, input().split())
+house_position = []
+for i in range(house):
+    house_position.append(int(input()))
 
-start = x_coordinate[0]
-end = x_coordinate[-1]
+house_position.sort()
 
-check = [0] * (end+1)
-for x in x_coordinate:
-    check[x] = 1
-print(x_coordinate)
-print(check)
+start, end = 1, house_position[-1] - house_position[0]
+answer = 1
 while start <= end:
     mid = (start + end) // 2
-    print(start, mid, end)
-    cnt = 1
-    next_x = start + mid
-    while True:
-        if next_x > end:
-            break
-        elif check[next_x] == 1:
-            cnt += 1
-        next_x += mid
 
-    if cnt < C:
+    cnt = 1
+    installed = [1]
+    last_installed = house_position[0]
+    for i in range(1, house):
+        if last_installed + mid > house_position[i]:
+            continue
+        else:
+            cnt += 1
+            last_installed = house_position[i]
+            installed.append(house_position[i])
+
+    if cnt >= router:
+        answer = mid
         start = mid + 1
 
     else:
         end = mid - 1
-        if cnt == C:
-            print(start, end, mid, 'd')
 
-print(end)
-=======
-x_coordinates = [int(sys.stdin.readline().rstrip()) for _ in range(N)]
-x_coordinates = sorted(x_coordinates)
 
-start = x_coordinates[0]
-end = x_coordinates[-1]
-
-print(x_coordinates)
-current_x = start
-# while start <= end:
-    # cnt = 1
-    # mid = (start + end) // 2
-
->>>>>>> 00d6dd4574a7ccf21ec1ad52347a73029bbf86d6
+print(answer)
